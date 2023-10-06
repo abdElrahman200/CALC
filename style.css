@@ -1,0 +1,52 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{ background-color: aquamarine;}
+.calc{
+    width: 190px;
+    height: 410px;
+    background-color:rgb(140, 176, 200);
+    margin:120px 0 0 400px ;
+    border-radius: 10px;
+padding: 10px;
+display: grid;
+grid-template-areas: "c1 c1 c1"
+ "c4 c5 c6" "c7 c8 c9"
+ "c10 c11 c12" "c13 c14 c15"
+ "c16 c17 c18" "c19 c20 c21" "c22 c22 c22"
+ ;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    margin: 2px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+.lb1{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    grid-area:c1 ;
+    
+}
+.equal{
+    font-size: 20px;
+    width: 100%;
+grid-area: c22;
+}
+.num7{ grid-area:c7 ;}
+.num8{ grid-area:c8 ;}
+.num9{ grid-area:c9 ;}
+.num4{ grid-area:c10 ;}
+.num5{ grid-area:c11 ;}
+.num6{ grid-area:c12 ;}
+.num1{ grid-area:c13 ;}
+.num2{ grid-area:c14 ;}
+.num3{ grid-area:c15 ;}
+.num0{ grid-area:c16 ;}
+
